@@ -29,9 +29,6 @@ int main(){
 
     }
 
-    cout << suma1 << endl;
-    cout << suma2 << endl;
-
     if(suma1 == suma2){
 
         cout << "La suma de los datos de los arreglos es igual" << endl;
