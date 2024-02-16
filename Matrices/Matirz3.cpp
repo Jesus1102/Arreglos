@@ -4,14 +4,21 @@ using namespace std;
 int main(){
 
     int x,y;
-    string Truqui [3][3] = {{},{},{}};
+    string Truiqui [3][3] = {};
 
-    for (int i=)
-        cout << "Ingrese la posicion en x: ";
-        cin >> x;
-
-        cout << "Ingrese la posicion en y: ";
-        cin >> y;
+    for (int i=0; i < 3; i++){
+        for (int j=0; j < 3; j++){
+            cout << "Ingrese 0 o X para la posicion ["<<i<<"]"<<"["<<j<<"]"<<endl;
+            cin >> Truiqui[i][j];
+        }
+    }
+    
+    for (int i=0; i < 3; i++){
+        for (int j=0; j < 3; j++){
+            cout << Truiqui[i][j];
+        }
+        cout << endl;
+    }
 
     return 0;
 
